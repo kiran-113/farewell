@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to the background image */
+.content::before {
+    content: "";
+    background-image: url('https://fthmb.tqn.com/LP4_NoRsJCWGS0tIGa0vEBAru9o=/4256x2832/filters:fill(auto,1)/low-angle-view-of-firework-display-over-river-during-sunset-604213021-57752e7b3df78cb62c11aba4.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+#qwerty{
+    color: rgb(0, 0, 0);
+    font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#asd{
+    background-color: rgba(0, 0, 0, 0.505);
+    color: aliceblue;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* Adjust animation timing and easing as needed */
+#playButton{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: yellow;
+}
+#nmlk{
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(51, 255, 0);
+}
