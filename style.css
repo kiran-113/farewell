@@ -1,8 +1,8 @@
 body, html {
     margin: 0;
-    padding: 0;
-    height: 100%;
-    
+  padding: 0;
+  background-size: contain; /* Fits the background image to the content */
+  background-repeat: repeat; /* Repeats the background image */
 }
 
 .content {
@@ -75,13 +75,16 @@ body, html {
     text-align: right;
 }
 
-#qwert{
-
+#ghji{
+width: 200px;
+height: 300px;
 }
 .background {
     background-image: url('image1.jpg'), url('image2.jpg');
     background-position: left top, right bottom; /* Adjust the position as needed */
     background-size: cover, cover; /* Adjust the size as needed */
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: repeat,repeat
   }
+
+  
   
