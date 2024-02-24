@@ -25,7 +25,7 @@ body, html {
 /* Apply the animation to the background image */
 .content::before {
     content: "";
-    background-image: url('https://fthmb.tqn.com/LP4_NoRsJCWGS0tIGa0vEBAru9o=/4256x2832/filters:fill(auto,1)/low-angle-view-of-firework-display-over-river-during-sunset-604213021-57752e7b3df78cb62c11aba4.jpg');
+    background-image: url('https://th.bing.com/th/id/R.f62091e03805aa1a092e242654aa9449?rik=Uh2MYGj43YYcxA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fIcGVtlX.jpg&ehk=fp3SLHTUn28vgGDlxAzGqwvYTDpvgXgs84f5t7uNghU%3d&risl=&pid=ImgRaw&r=0');
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -73,8 +73,4 @@ body, html {
     background-color: black;
     color: rgb(255, 255, 0);
     text-align: right;
-}
-
-#qwert{
-    
 }
