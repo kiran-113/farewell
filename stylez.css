@@ -81,3 +81,7 @@ body, html {
     background-size: cover, cover; /* Adjust the size as needed */
     background-repeat: repeat,repeat
   }
+  #asdfghjkl{
+border-radius: 5px;
+border-color:rgba(186, 2, 186, 0.61);
+}
