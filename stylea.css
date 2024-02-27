@@ -103,3 +103,16 @@ height: 300px;
     "SCAN" 0;
 color: red;
 }
+
+#zxcv {
+
+  border-radius: 30px ;
+  max-width:100%;
+  height:auto;
+}
+
+#xdfr{
+  border-color: aliceblue;
+  border-radius: 20px
+  ;
+}
